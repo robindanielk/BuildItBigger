@@ -8,6 +8,7 @@ import android.util.Pair;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.JokeProviderJava;
@@ -47,9 +48,10 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @SuppressWarnings("unchecked")
     public void tellJoke(View view) {
-        String joke = JokeProviderJava.getJokes();
-        new EndpointsAsyncTask().execute(new Pair<Context, String>(this,joke));
+        ProgressBar loadingIndicator = (ProgressBar) findViewById(R.id.progress_bar);
+        new EndpointsAsyncTask(this,loadingIndicator).execute();
     }
 
 

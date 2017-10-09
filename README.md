@@ -4,7 +4,7 @@ In this project, you will create an app with multiple flavors that uses
 multiple libraries and Google Cloud Endpoints. The finished app will consist
 of four modules. A Java library that provides jokes, a Google Cloud Endpoints
 (GCE) project that serves those jokes, an Android Library containing an
-activity for displaying jokes, and an Android app that fetches jokes from the
+activity fo`r displaying jokes, and an Android app that fetches jokes from the
 GCE module and passes them to the Android Library for display.
 ## Why this Project
 
@@ -74,7 +74,7 @@ tutorial to add a Google Could Endpoints module to your project:
 https://github.com/GoogleCloudPlatform/gradle-appengine-templates/tree/master/HelloEndpoints
 
 Introduce a project dependency between your Java library and your GCE module,
-and modify the GCE starter code to pull jokes from your Java library. Create
+``and modify the GCE starter code to pull jokes from your Java library. Create
 an Async task to retrieve jokes. Make the button kick off a task to retrieve a
 joke, then launch the activity from your Android Library to display it.
 

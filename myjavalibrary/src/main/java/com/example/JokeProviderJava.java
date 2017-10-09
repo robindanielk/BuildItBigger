@@ -2,7 +2,7 @@ package com.example;
 
 public class JokeProviderJava
 {
-    public static String getJokes()
+    public String getJokes()
     {
         return "Joke from the Java Library";
     }

@@ -17,7 +17,7 @@ import javax.inject.Named;
  * An endpoint class we are exposing
  */
 @Api(
-        name = "myApi",
+        name = "myJokeApi",
         version = "v1",
         namespace = @ApiNamespace(
                 ownerDomain = "backend.buildItBigger.google.com",
@@ -30,11 +30,9 @@ public class MyEndpoint {
     /**
      * A simple endpoint
      */
-    @ApiMethod(name = "getJoke")
-    public MyBean getJoke() {
-        MyBean response = new MyBean();
-        response.setData(JokeProviderJava.getJokes());
-        return response;
+    @ApiMethod(name = "putJoke")
+    public MyJokeBean putJoke(MyJokeBean jokeBean) {
+        return jokeBean;
     }
 
 }
