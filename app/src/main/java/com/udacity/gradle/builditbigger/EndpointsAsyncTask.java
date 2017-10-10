@@ -49,8 +49,9 @@ class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> 
         }
     }
 
+    @SafeVarargs
     @Override
-    protected String doInBackground(Pair<Context, String>... params) {
+    protected final String doInBackground(Pair<Context, String>... params) {
         if(mApiService == null)
         {
             MyJokeApi.Builder builder = new MyJokeApi.Builder(AndroidHttp.newCompatibleTransport(),
