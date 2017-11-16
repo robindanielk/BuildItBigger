@@ -16,9 +16,9 @@
       <configuration>
         <option name="HTTP_ADDRESS" value="localhost" />
         <option name="HTTP_PORT" value="8080" />
-        <option name="WAR_DIR" value="D:\android udacity\projects final\proj4\BuildItBigger\backend\build\exploded-app" />
-        <option name="WEB_APP_DIR" value="D:\android udacity\projects final\proj4\BuildItBigger\backend\src\main\webapp" />
-        <option name="APPENGINE_SDKROOT" value="C:\Users\USER\.gradle\appengine-sdk\appengine-java-sdk-1.9.42" />
+        <option name="WAR_DIR" value="$MODULE_DIR$/build/exploded-app" />
+        <option name="WEB_APP_DIR" value="$MODULE_DIR$/src/main/webapp" />
+        <option name="APPENGINE_SDKROOT" value="$USER_HOME$/.gradle/appengine-sdk/appengine-java-sdk-1.9.42" />
       </configuration>
     </facet>
   </component>
@@ -29,9 +29,9 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/functionalTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/functionalTest/resources" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/functionalTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
@@ -40,16 +40,19 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="myjavalibrary" exported="" />
     <orderEntry type="module" module-name="myjavalibrary" exported="" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-endpoints-1.9.42" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-endpoints-1.9.59" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-endpoints-deps-1.9.42" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="servlet-api-2.5" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-1.16.0-rc" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-android-1.20.0" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="google-oauth-client-1.16.0-rc" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-1.22.0" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-api-1.0-sdk-1.9.42" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-android-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-oauth-client-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-jackson2-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-api-1.0-sdk-1.9.59" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="guava-jdk5-17.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="jsr305-1.3.9" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="httpclient-4.0.1" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="jackson-core-2.1.3" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="httpcore-4.0.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="commons-logging-1.1.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="commons-codec-1.3" level="project" />
