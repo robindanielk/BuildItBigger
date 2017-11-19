@@ -30,8 +30,8 @@ public class MyEndpoint {
      * A simple endpoint
      */
     @ApiMethod(name = "putJoke")
-    public MyJokeBean putJoke(MyJokeBean jokeBean) {
-        return jokeBean;
+    public MyJokeBean putJoke() {
+        return new MyJokeBean();
     }
 
 }

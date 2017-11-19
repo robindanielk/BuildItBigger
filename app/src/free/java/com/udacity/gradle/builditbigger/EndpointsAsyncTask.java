@@ -65,7 +65,7 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
                     });
             mApiService = builder.build();
         }try{
-            return mApiService.putJoke(new MyJokeBean()).execute().getJoke();
+            return mApiService.putJoke().execute().getJoke();
         }catch (IOException e){
             return e.getMessage();
         }
