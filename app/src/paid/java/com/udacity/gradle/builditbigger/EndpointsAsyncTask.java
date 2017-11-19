@@ -10,9 +10,6 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.myandroidlibrary.JokeTellerAndroid;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
